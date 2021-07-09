@@ -11,6 +11,10 @@
   text-anchor: middle;
 }
 
+.axis-text {
+  font-weight: bold;
+}
+
 .inactive {
   font-weight: lighter;
   fill: #c9c9c9;
