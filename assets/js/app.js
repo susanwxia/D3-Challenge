@@ -43,7 +43,7 @@ function xScale(healthCareData, ChartxAxis) {
 
 
 // Retrieve data from the CSV file and execute everything below
-d3.csv("assets/data/data.csv").then(function(healthCareData, err) {
+d3.csv("./assets/data/data.csv").then(function(healthCareData, err) {
   if (err) throw err;
 
   // parse data
